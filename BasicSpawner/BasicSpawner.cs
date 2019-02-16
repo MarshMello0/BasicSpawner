@@ -84,7 +84,7 @@ public class BasicSpawner : Mod
 
     public void OpenBrowerList()
     {
-        Application.OpenURL("https://pastebin.com/raw/VdtzyM0N");
+        Application.OpenURL("https://raw.githubusercontent.com/MarshMello0/BasicSpawner/master/itemList.txt");
     }
 
     public void ExportList()
