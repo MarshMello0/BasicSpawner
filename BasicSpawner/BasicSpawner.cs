@@ -8,9 +8,9 @@ using System.IO;
 [ModTitle("BasicSpawner")]
 [ModDescription("A mod which allows you to spawn items in where ever you are")]
 [ModAuthor(". Marsh.Mello .")]
-[ModIconUrl("https://c-3sux78kvnkay76x24mgskvkjogx2eiax78ykijtx2eius.g00.gamepedia.com/g00/3_c-3sotkix78glz.mgskvkjog.ius_/c-3SUXKVNKAY76x24nzzvyx3ax2fx2fmgskvkjog.iax78ykijt.iusx2fsotkix78glz_mgskvkjogx2fznashx2f")]
-[ModWallpaperUrl("https://c-3sux78kvnkay76x24mgskvkjogx2eiax78ykijtx2eius.g00.gamepedia.com/g00/3_c-3sotkix78glz.mgskvkjog.ius_/c-3SUXKVNKAY76x24nzzvyx3ax2fx2fmgskvkjog.iax78ykijt.iusx2fsotkix78glz_mgskvkjogx2fznashx2f")]
-[ModVersion("0.0.1")]
+[ModIconUrl("https://gamepedia.cursecdn.com/minecraft_gamepedia/6/6c/Spawner.png")]
+[ModWallpaperUrl("https://gamepedia.cursecdn.com/minecraft_gamepedia/6/6c/Spawner.png")]
+[ModVersion("1.0.0")]
 [RaftVersion("Update 9 (3556813)")]
 public class BasicSpawner : Mod
 {
