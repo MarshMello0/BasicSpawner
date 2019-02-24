@@ -47,6 +47,17 @@ public class BasicSpawner : Mod
         else
         {
             string itemName = lastCommand[1];
+            int amount = 1;
+            if (lastCommand.Length > 2)
+            {
+                string itemAmount = lastCommand[2];
+                int result;
+                if (int.TryParse(itemAmount, out result))
+                {
+                    amount = result;
+                }
+            }
+
             for (int i = 0; i < items.Count; i++)
             {
                 if (items[i].UniqueName == itemName)
@@ -54,8 +65,8 @@ public class BasicSpawner : Mod
                     PlayerInventory pi = ComponentManager<PlayerInventory>.Value;
                     try
                     {
-                        pi.AddItem(items[i].UniqueName, 1);
-                        RConsole.Log("Have given player " + items[i].UniqueName);
+                        pi.AddItem(items[i].UniqueName, amount);
+                        RConsole.Log("Have given player " + amount + " " + items[i].UniqueName);
                     }
                     catch (Exception e)
                     {
