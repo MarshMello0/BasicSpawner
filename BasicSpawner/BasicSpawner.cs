@@ -10,7 +10,7 @@ using System.IO;
 [ModAuthor(". Marsh.Mello .")]
 [ModIconUrl("https://gamepedia.cursecdn.com/minecraft_gamepedia/6/6c/Spawner.png")]
 [ModWallpaperUrl("https://gamepedia.cursecdn.com/minecraft_gamepedia/6/6c/Spawner.png")]
-[ModVersion("1.0.0")]
+[ModVersion("1.1.0")]
 [RaftVersion("Update 9 (3556813)")]
 public class BasicSpawner : Mod
 {
